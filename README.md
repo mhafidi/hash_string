@@ -18,14 +18,14 @@ This script allows you to generate a hash of a given string using different algo
 
 - Generate a SHA-256 64-bit hash:    
     ```bash
-./hash_string.sh -s "Your String Here" -a sha -t 64
+   ./hash_string.sh -s "Your String Here" -a sha -t 64
 
 - Generate an MD5 256-bit hash:
     ```bash
-./hash_string.sh -s "Your String Here" -a md5 -t 256
+    ./hash_string.sh -s "Your String Here" -a md5 -t 256
 
 - Generate a SHA-256 64-bit hash with a tag:
     ```bash
-./hash_string.sh -s "Your String Here" -a sha -t 64 -o "MyTag"
+    ./hash_string.sh -s "Your String Here" -a sha -t 64 -o "MyTag"
 	
 
